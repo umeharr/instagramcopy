@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -60,14 +60,12 @@
 				21C37C6AB31BC52518A3F833 /* Pods-Instagram.debug.xcconfig */,
 				425DE93BD38C480C2B90A352 /* Pods-Instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		CE054396248B0181005F1B09 = {
 			isa = PBXGroup;
 			children = (
-				CE0543C0248B1AF8005F1B09 /* TabBarController.swift */,
 				CE0543A1248B0181005F1B09 /* Instagram */,
 				CE0543A0248B0181005F1B09 /* Products */,
 				647F2485A593322D01734149 /* Pods */,
@@ -93,6 +91,7 @@
 				CE0543BE248B064A005F1B09 /* SettingViewController.swift */,
 				CE0543B8248B0372005F1B09 /* HomeViewController.swift */,
 				CE0543B6248B0318005F1B09 /* LoginViewController.swift */,
+				CE0543C0248B1AF8005F1B09 /* TabBarController.swift */,
 				CE0543A8248B0181005F1B09 /* Main.storyboard */,
 				CE0543AB248B018D005F1B09 /* Assets.xcassets */,
 				CE0543AD248B018D005F1B09 /* LaunchScreen.storyboard */,
