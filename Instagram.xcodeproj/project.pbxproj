@@ -19,6 +19,13 @@
 		CE0543BF248B064A005F1B09 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0543BE248B064A005F1B09 /* SettingViewController.swift */; };
 		CE0543C1248B1AF8005F1B09 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0543C0248B1AF8005F1B09 /* TabBarController.swift */; };
 		CE0543C3248B57A1005F1B09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE0543C2248B57A0005F1B09 /* GoogleService-Info.plist */; };
+		CE0BF7AF249511DE007AB7D6 /* Instagram in Resources */ = {isa = PBXBuildFile; fileRef = CE0BF7AE249511DE007AB7D6 /* Instagram */; };
+		CE54AA562492849900E13AD2 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54AA552492849800E13AD2 /* Const.swift */; };
+		CE54AA5824929C6100E13AD2 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54AA5724929C6100E13AD2 /* PostData.swift */; };
+		CE54AA5B2492A78E00E13AD2 /* VpostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54AA592492A78E00E13AD2 /* VpostTableViewCell.swift */; };
+		CE54AA5C2492A78E00E13AD2 /* VpostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54AA5A2492A78E00E13AD2 /* VpostTableViewCell.xib */; };
+		CE54AA5F2494F40A00E13AD2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54AA5D2494F40A00E13AD2 /* PostTableViewCell.swift */; };
+		CE54AA602494F40A00E13AD2 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54AA5E2494F40A00E13AD2 /* PostTableViewCell.xib */; };
 		D2D1A2B7E09EE7E55CC58E44 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E5DE1F08C10485BC898B85 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +46,13 @@
 		CE0543BE248B064A005F1B09 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		CE0543C0248B1AF8005F1B09 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE0543C2248B57A0005F1B09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE0BF7AE249511DE007AB7D6 /* Instagram */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Instagram; sourceTree = "<group>"; };
+		CE54AA552492849800E13AD2 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CE54AA5724929C6100E13AD2 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CE54AA592492A78E00E13AD2 /* VpostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpostTableViewCell.swift; sourceTree = "<group>"; };
+		CE54AA5A2492A78E00E13AD2 /* VpostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpostTableViewCell.xib; sourceTree = "<group>"; };
+		CE54AA5D2494F40A00E13AD2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		CE54AA5E2494F40A00E13AD2 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		D0E5DE1F08C10485BC898B85 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,12 +105,19 @@
 				CE0543BE248B064A005F1B09 /* SettingViewController.swift */,
 				CE0543B8248B0372005F1B09 /* HomeViewController.swift */,
 				CE0543B6248B0318005F1B09 /* LoginViewController.swift */,
+				CE0BF7AE249511DE007AB7D6 /* Instagram */,
+				CE54AA5724929C6100E13AD2 /* PostData.swift */,
+				CE54AA552492849800E13AD2 /* Const.swift */,
 				CE0543C0248B1AF8005F1B09 /* TabBarController.swift */,
 				CE0543A8248B0181005F1B09 /* Main.storyboard */,
 				CE0543AB248B018D005F1B09 /* Assets.xcassets */,
 				CE0543AD248B018D005F1B09 /* LaunchScreen.storyboard */,
 				CE0543B0248B018D005F1B09 /* Info.plist */,
 				CE0543C2248B57A0005F1B09 /* GoogleService-Info.plist */,
+				CE54AA592492A78E00E13AD2 /* VpostTableViewCell.swift */,
+				CE54AA5A2492A78E00E13AD2 /* VpostTableViewCell.xib */,
+				CE54AA5D2494F40A00E13AD2 /* PostTableViewCell.swift */,
+				CE54AA5E2494F40A00E13AD2 /* PostTableViewCell.xib */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -170,9 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0543AF248B018D005F1B09 /* LaunchScreen.storyboard in Resources */,
+				CE0BF7AF249511DE007AB7D6 /* Instagram in Resources */,
 				CE0543C3248B57A1005F1B09 /* GoogleService-Info.plist in Resources */,
 				CE0543AC248B018D005F1B09 /* Assets.xcassets in Resources */,
+				CE54AA602494F40A00E13AD2 /* PostTableViewCell.xib in Resources */,
 				CE0543AA248B0181005F1B09 /* Main.storyboard in Resources */,
+				CE54AA5C2492A78E00E13AD2 /* VpostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +253,14 @@
 				CE0543C1248B1AF8005F1B09 /* TabBarController.swift in Sources */,
 				CE0543B9248B0372005F1B09 /* HomeViewController.swift in Sources */,
 				CE0543BD248B03B9005F1B09 /* PostViewController.swift in Sources */,
+				CE54AA5B2492A78E00E13AD2 /* VpostTableViewCell.swift in Sources */,
 				CE0543BF248B064A005F1B09 /* SettingViewController.swift in Sources */,
+				CE54AA5824929C6100E13AD2 /* PostData.swift in Sources */,
 				CE0543B7248B0318005F1B09 /* LoginViewController.swift in Sources */,
 				CE0543A3248B0181005F1B09 /* AppDelegate.swift in Sources */,
 				CE0543A5248B0181005F1B09 /* SceneDelegate.swift in Sources */,
+				CE54AA562492849900E13AD2 /* Const.swift in Sources */,
+				CE54AA5F2494F40A00E13AD2 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
